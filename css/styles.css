@@ -13,14 +13,21 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #fff;
 
-  background: linear-gradient(-45deg, #1e3c72, #2a5298, #6a11cb, #2575fc);
+  color: #1e293b;
+
+  background: linear-gradient(
+    -45deg,
+    #dbeafe,
+    #e0f2fe,
+    #e2e8f0,
+    #dbeafe
+  );
   background-size: 400% 400%;
-  animation: fondoAnimado 12s ease infinite;
+  animation: fondoSuave 18s ease infinite;
 }
 
-@keyframes fondoAnimado {
+@keyframes fondoSuave {
   0% { background-position: 0% 50%; }
   50% { background-position: 100% 50%; }
   100% { background-position: 0% 50%; }
